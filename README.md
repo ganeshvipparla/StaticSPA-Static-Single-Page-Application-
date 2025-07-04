@@ -1,2 +1,2 @@
 # StaticSPA-Static-Single-Page-Application-
-StaticSPA is a lightweight single-page website built with only HTML and CSS, without JavaScript. Ideal for portfolios and landing pages, it offers fast loading, responsive design, and easy deployment on platforms like GitHub Pages. It’s perfect for creating simple, clean, and reliable static websites with minimal setup.
+This is a simple web page made using only HTML and CSS. It includes basic design, layout, and styling. The project shows how a website can be created with just two core web languages. It is a beginner-level application, useful for understanding structure and visual presentation.
