@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Developer Motivation - Dark Mode</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="main-bg d-flex flex-column justify-content-center">
+        <div class="quote-box">
+            <h1 class="quote-text">
+                Every great developer you know<br>
+                got there by solving problems<br>
+                they were unqualified to solve —<br>
+                until they actually did it.
+            </h1>
+        </div>
+    </div>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .main-bg {
+            background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?auto=format&fit=crop&w=1350&q=80");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .main-bg::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+        }
+
+        .quote-box {
+            background-color: rgba(0, 0, 0, 0.85);
+            border: 3px solid #00e676;
+            padding: 30px;
+            color: white;
+            text-align: center;
+            font-family: 'Bree Serif', serif;
+            font-size: 22px;
+            line-height: 1.5;
+            z-index: 1;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 230, 118, 0.5);
+        }
+    </style>
+</body>
+</html>
